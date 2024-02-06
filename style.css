@@ -83,7 +83,7 @@ header{
 .account ul {
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: right;
     /* align-items: center; */
 }
 
@@ -91,6 +91,11 @@ header{
     padding: 0 5px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.col-20{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /*-------------------
