@@ -38,6 +38,10 @@ img {
     width: calc(100%/3);
 }
 
+.col-50{
+    width: 50%;
+}
+
 .col-grow {
     flex-grow: 1;
 }
@@ -155,4 +159,62 @@ img {
 
 .former-price{
     text-decoration: line-through;
+}
+
+/*-------------------
+    CARD HOVER
+-------------------*/
+.card .card-image-hover{
+    display: none;
+}
+
+.card:hover .card-image-hover{
+    display: block;
+}
+
+.card:hover .card-image-default{
+    display: none;
+}
+/*-------------------
+    FOOTER
+-------------------*/
+
+.footer-container{
+    background-color: #1a1a1a;
+    min-height: 50px;
+}
+
+footer .col-50{
+    padding: 16px 0px;
+}
+
+.boolando, .where{
+    color: #ffffff;
+    padding-bottom: 6px;
+}
+
+.address ul, .find-us ul{
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    /* align-items: center; */
+}
+
+.address li, .find-us li{
+    padding: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.address ul > li:first-child{
+    padding-left: 0;
+}
+
+.where{
+    text-align: right;
+}
+
+.socials ul li{
+    text-align: right;
 }
