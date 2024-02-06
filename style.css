@@ -34,6 +34,10 @@ img {
     width: 20%;
 }
 
+.col-33{
+    width: calc(100%/3);
+}
+
 .col-grow {
     flex-grow: 1;
 }
@@ -78,4 +82,77 @@ img {
     padding: 0 5px;
     text-decoration: none;
     color: #ffffff;
+}
+
+/*-------------------
+    MAIN
+-------------------*/
+
+/*-------------------
+    CARD
+-------------------*/
+
+.card {
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .boxes {
+    position: absolute;
+    bottom: 80px;
+    /* right: 0; */
+}
+
+.boxes{
+    display: flex;
+    gap: 4px;
+    color: #ffffff;
+}
+
+.discount{
+    background-color: red;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.sostenibilità{
+    background-color: green;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.like{
+    position: absolute;
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    background-color: #ffffff;
+    top: 30px;
+    right: 0;
+    padding: 4px 8px;
+}
+
+.product-info ul{
+    list-style: none;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.price{
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+.current-price{
+    color: red;
+    font-style: bold;
+}
+
+.former-price{
+    text-decoration: line-through;
 }
