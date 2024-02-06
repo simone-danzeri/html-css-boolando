@@ -4,3 +4,78 @@
     margin: 0;
     padding: 0;
 }
+
+img {
+    max-width: 100%;
+}
+
+/*-------------------
+    GRID LAYOUT
+-------------------*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row > * {
+    padding: 0 10px;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-grow {
+    flex-grow: 1;
+}
+
+/*-------------------
+    HEADER
+-------------------*/
+
+.col-grow img{
+    width: 150px;
+}
+
+.header-container{
+    background-color: #ff6900;
+    padding-top: 16px;
+}
+
+.size span{
+    padding: 0 5px;
+    color: #ffffff;
+}
+
+.account {
+    text-align: right;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 8px; */
+}
+
+.account ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.account li {
+    padding: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
