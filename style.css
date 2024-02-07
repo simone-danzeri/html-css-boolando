@@ -106,6 +106,10 @@ main .container{
     padding: 40px 0px;
 }
 
+main .container .second-row{
+    margin-top: 40px;
+}
+
 /*-------------------
     CARD
 -------------------*/
