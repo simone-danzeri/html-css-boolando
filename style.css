@@ -183,7 +183,7 @@ main .container{
 }
 
 .card:hover .card-image-hover{
-    display: block;
+    display: inline-block;
 }
 
 .card:hover .card-image-default{
