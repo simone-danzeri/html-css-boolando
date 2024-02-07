@@ -51,7 +51,11 @@ img {
 -------------------*/
 
 header{
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10000;
 }
 
 .col-grow img{
@@ -59,8 +63,6 @@ header{
 }
 
 .header-container{
-    position: sticky;
-    top: 0;
     background-color: #ff6900;
     padding-top: 16px;
 }
@@ -104,6 +106,10 @@ header{
 -------------------*/
 main .container{
     padding: 40px 0px;
+}
+
+main .container .first-row{
+    margin-top: 80px;
 }
 
 main .container .second-row{
